@@ -1,0 +1,233 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(255, 238, 0, 0.116);
+}
+main .turismo-menu1
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(209, 134, 23);
+    min-height: 60px;
+}
+main h1
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+main nav
+{
+    margin-left: 20px;
+}
+main nav a
+{
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+main nav a:hover
+{
+    cursor: pointer;
+    color: yellow;
+    transition: color 0.4s;
+}
+main .turismo-menu1 img
+{
+    width: 180px;
+    height: 180px;
+}
+main .turismo-destinos1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9999994d;
+    
+}
+
+main .turismo-destinos2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9999994d;
+    padding-bottom: 50px;
+}
+
+main .turismo-destinos1 .turismo-viajesimg img
+{
+    width: 400px;
+    margin: 0px 25px;
+    border-radius: 5px;
+    
+}
+
+main .turismo-destinos1 .turismo-viajesimg h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .turismo-destinos2 .turismo-viajesimg img
+{
+    width: 400px;
+    margin: 0px 25px;
+    border-radius: 5px;
+
+    
+}
+
+main .turismo-destinos2 .turismo-viajesimg h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .turismo-destinos1 .turismo-viajesimg img:hover
+{
+    transform:  scale(1.0705);
+    transition: all 0.60s;
+}
+
+main .turismo-destinos2 .turismo-viajesimg img:hover
+{
+    transform:  scale(1.0705);
+    transition: all 0.60s;
+}
+
+main .turismo-destinos1 .turismo-viajesimg .guia1
+{
+    display: flex;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 10px 25px;
+}
+
+main .turismo-destinos1 .turismo-viajesimg .guia2
+{
+    display: flex;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 10px 25px;
+    padding-bottom: 51px;
+}
+
+main .turismo-destinos1 .turismo-viajesimg .guia3
+{
+    display: flex;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 19px 25px;
+}
+
+main .turismo-destinos2 .turismo-viajesimg .guia4
+{
+    display: flex;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 10px 25px;
+}
+
+main .turismo-destinos2 .turismo-viajesimg .guia5
+{
+    display: flex;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 19px 25px;
+}
+
+main .turismo-destinos2 .turismo-viajesimg .guia6
+{
+    display: flex;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 28px 25px;
+}
+
+main .turismo-destinos1 .turismo-viajesimg button
+{
+    border: none;
+    font-size: 18px;
+    margin-left: 175px;
+    background-color: rgb(255, 136, 0);
+    color: rgb(255, 255, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main .turismo-destinos2 .turismo-viajesimg button
+{
+    border: none;
+    font-size: 18px;
+    margin-left: 175px;
+    background-color: rgb(255, 136, 0);
+    color: rgb(255, 255, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main .turismo-destinos1 .turismo-viajesimg button:hover
+{
+    cursor: pointer;
+    background-color: rgb(187, 121, 0);
+    transition: background-color 0.5s;
+}
+
+main .turismo-destinos2 .turismo-viajesimg button:hover
+{
+    cursor: pointer;
+    background-color: rgb(187, 121, 0);
+    transition: background-color 0.5s;
+}
+
+.turismo-footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(150, 90, 0);
+    color: rgb(255, 255, 83);
+}
+
+@media screen and (max-width: 1351px) {
+
+    main .turismo-menu1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    main .turismo-destinos1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    main .turismo-destinos2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 863px) {
+
+    main .turismo-menu1 .turismo-nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
